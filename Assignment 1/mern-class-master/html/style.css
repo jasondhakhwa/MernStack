@@ -1,0 +1,167 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.first-parent{
+    justify-content: center;
+    height: 450px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.overlay{
+    background-image: url('images/pexels-photo-248515.png');
+    background-color: #302f2f;
+    opacity: 0.9;
+    position: absolute;
+    width: 100%;
+    height: 450px;
+    z-index: -1;
+}
+
+/*Q image opacity change garna ayena*/
+/*Q text alikati mathi k garna parcha?*/
+.first-parent h1{
+    font-size: 2em;
+}
+.first-parent p{
+    width: 60%;
+    font-size: 1em;
+    padding: 1em 0;
+}
+#button{
+    background-color: grey;
+    padding: 20px;
+    color: #e2dede;
+    border: #696969;
+    width: 150px;    
+}
+#button:hover{    
+    background-color: rgb(95, 94, 94);
+}
+
+/*Second parent*/
+.second-parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ddd7d7;
+}
+.second-parent h1{
+    padding: 1em;
+    font-size: 1.5em;
+}
+.second-text{
+    display: flex;
+    max-width: 1000px;
+    padding:50px;
+    padding-top: 0%;
+}
+.second-text p{
+    padding: 20px;
+}
+/*Third Content*/
+.third-card{
+    display: flex;
+    background-color: #302f2f;
+    justify-content: center;
+}
+.card{
+    margin: 20px;
+    width: 270px;
+    background: white;
+    height: 400px;
+}
+.card-image{
+    height: 150px;
+    background-size: cover;
+}
+.card1{
+    background-image: url('images/pexels-photo-574077.jpeg');
+}
+.card2{
+    background-image: url('images/pexels-photo-261628.jpeg');
+}
+.card3{
+    background-image: url('images/pexels-photo-265087.jpeg');
+}
+.card-content{
+    text-align: center;
+    padding: 20px;
+}
+.card-content h1{
+    font-size: larger;
+    padding: 1em 0;
+}
+/*Fourth Content*/
+.fourth-content{
+    background-color: #e2dede;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+.fourth-content h1{
+    padding: 40px;
+    width: 850px;
+}
+
+.fourth-content p{
+    padding-bottom: 40px;
+    width: 850px;
+}
+/*Fifth Content*/
+.fifth-content{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+.abt1{
+    background-color: rgb(8, 105, 161);
+    width: 50%;
+    height: 100%;
+}
+.abt2{
+    background-color: rgb(67, 68, 68);
+    width: 50%;
+    height: 100%;
+}
+.about{
+    padding: 50px;
+}
+.about p{
+    padding: 0px 40px;
+}
+#email{
+    padding: 50px;
+}
+/*Footer*/
+.footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    text-align: center;
+    height: 100px;
+    align-items: center;
+}
+/*question width yesari nai garne ho?*/
+#solutions{
+    width: 50%;
+}
+#project{
+    width: 50%;
+}
